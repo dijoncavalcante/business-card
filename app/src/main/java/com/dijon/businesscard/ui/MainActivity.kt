@@ -1,7 +1,8 @@
-package com.dijon.businesscard
+package com.dijon.businesscard.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.dijon.businesscard.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
