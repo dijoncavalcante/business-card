@@ -1,12 +1,28 @@
 package com.dijon.businesscard.ui
 
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
 import android.os.Bundle
-import com.dijon.businesscard.R
+import androidx.appcompat.app.AppCompatActivity
+import com.dijon.businesscard.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
+
+    private val binding by lazy { ActivityMainBinding.inflate(layoutInflater) }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(binding.root)
+        insertListener()
     }
+
+    private fun insertListener() {
+        binding.apply {
+            fab.setOnClickListener {
+                val intent = Intent(this@MainActivity, AddBusinessCardActivity::class.java)
+                startActivity(intent)
+            }
+        }
+    }
+
+
 }

@@ -34,7 +34,7 @@
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                tools:text="Igor Rotondo Bagliotti" />
+                tools:text="Dijon Cavalcante Braga" />
 
             <com.google.android.material.textview.MaterialTextView
                 android:id="@+id/tv_telefone"
