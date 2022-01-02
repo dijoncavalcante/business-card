@@ -1,4 +1,4 @@
-package com.dijon.businesscard.ui
+package com.dijon.businesscard
 
 import android.app.Application
 import com.dijon.businesscard.data.AppDataBase

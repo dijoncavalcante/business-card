@@ -6,7 +6,7 @@
     android:layout_height="wrap_content">
 
     <com.google.android.material.card.MaterialCardView
-        android:id="@+id/cd_content"
+        android:id="@+id/mcv_content"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:checkable="true"
@@ -28,7 +28,7 @@
             android:layout_margin="16dp">
 
             <com.google.android.material.textview.MaterialTextView
-                android:id="@+id/tv_nome"
+                android:id="@+id/tv_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
@@ -37,12 +37,12 @@
                 tools:text="Dijon Cavalcante Braga" />
 
             <com.google.android.material.textview.MaterialTextView
-                android:id="@+id/tv_telefone"
+                android:id="@+id/tv_cellphone"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/tv_nome"
+                app:layout_constraintTop_toBottomOf="@id/tv_name"
                 tools:text="Telefone" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -51,11 +51,11 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/tv_telefone"
+                app:layout_constraintTop_toBottomOf="@id/tv_cellphone"
                 tools:text="Email" />
 
             <com.google.android.material.textview.MaterialTextView
-                android:id="@+id/tv_nome_empresa"
+                android:id="@+id/tv_name_company"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 app:layout_constraintBottom_toBottomOf="parent"
